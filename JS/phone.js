@@ -4,14 +4,11 @@
 /**
  * Created by Administrator on 2016/6/26 0026.
  */
-/*~function (desW) {
+~function (desW) {
     var winW = document.documentElement.clientWidth;
     document.documentElement.style.fontSize = winW / desW * 100 + "px";
-}(800);*/
-~function (desW) {
-    var winH = document.documentElement.clientHeight;
-    document.documentElement.style.fontSize = winH / desW * 100 + "px";
-}(1390);
+}(750);
+
 ~function () {
     var step=0;
     new Swiper(".swiper-container", {
