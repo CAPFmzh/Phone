@@ -7,7 +7,7 @@
 ~function (desW) {
     var winW = document.documentElement.clientWidth;
     document.documentElement.style.fontSize = winW / desW * 100 + "px";
-}(850);
+}(800);
 /*~function (desW) {
     var winH = document.documentElement.clientHeight;
     document.documentElement.style.fontSize = winH / desW * 100 + "px";
