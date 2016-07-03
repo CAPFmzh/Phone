@@ -7,11 +7,11 @@
 ~function (desW) {
     var winW = document.documentElement.clientWidth;
     document.documentElement.style.fontSize = winW / desW * 100 + "px";
-}(750);
-~function (desW) {
+}(850);
+/*~function (desW) {
     var winH = document.documentElement.clientHeight;
     document.documentElement.style.fontSize = winH / desW * 100 + "px";
-}(1440);
+}(1440);*/
 ~function () {
     var step=0;
     new Swiper(".swiper-container", {
